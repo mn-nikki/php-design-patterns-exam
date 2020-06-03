@@ -13,7 +13,7 @@
   },
   {
     "id": 102,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "21.03.2021",
     "mileage": 80299
   },
@@ -43,7 +43,7 @@
   },
   {
     "id": 107,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "14.04.2021",
     "mileage": 14694
   },
@@ -55,13 +55,13 @@
   },
   {
     "id": 109,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "27.07.2019",
     "mileage": 60075
   },
   {
     "id": 110,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "07.03.2021",
     "mileage": 62504
   },
@@ -79,13 +79,13 @@
   },
   {
     "id": 113,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "12.10.2020",
     "mileage": 89154
   },
   {
     "id": 114,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "17.10.2019",
     "mileage": 45199
   },
@@ -97,13 +97,13 @@
   },
   {
     "id": 116,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "05.09.2019",
     "mileage": 86128
   },
   {
     "id": 117,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "03.09.2019",
     "mileage": 67090
   },
@@ -139,7 +139,7 @@
   },
   {
     "id": 123,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "14.04.2021",
     "mileage": 73229
   },
@@ -157,7 +157,7 @@
   },
   {
     "id": 126,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "01.04.2020",
     "mileage": 91934
   },
@@ -187,7 +187,7 @@
   },
   {
     "id": 131,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "23.10.2019",
     "mileage": 12327
   },
@@ -211,13 +211,13 @@
   },
   {
     "id": 135,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "24.04.2020",
     "mileage": 23230
   },
   {
     "id": 136,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "28.07.2019",
     "mileage": 95813
   },
@@ -235,25 +235,25 @@
   },
   {
     "id": 139,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "04.01.2021",
     "mileage": 75799
   },
   {
     "id": 140,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "17.10.2020",
     "mileage": 38662
   },
   {
     "id": 141,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "06.08.2019",
     "mileage": 86233
   },
   {
     "id": 142,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "30.01.2021",
     "mileage": 18239
   },
@@ -295,25 +295,25 @@
   },
   {
     "id": 149,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "17.05.2021",
     "mileage": 54925
   },
   {
     "id": 150,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "10.01.2021",
     "mileage": 29249
   },
   {
     "id": 151,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "22.03.2020",
     "mileage": 71365
   },
   {
     "id": 152,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "07.05.2021",
     "mileage": 12252
   },
@@ -325,7 +325,7 @@
   },
   {
     "id": 154,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "24.11.2019",
     "mileage": 36319
   },
@@ -337,13 +337,13 @@
   },
   {
     "id": 156,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "09.10.2020",
     "mileage": 94302
   },
   {
     "id": 157,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "13.02.2021",
     "mileage": 98374
   },
@@ -355,13 +355,13 @@
   },
   {
     "id": 159,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "30.06.2019",
     "mileage": 53928
   },
   {
     "id": 160,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "08.10.2019",
     "mileage": 52218
   },
@@ -373,7 +373,7 @@
   },
   {
     "id": 162,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "28.09.2019",
     "mileage": 79806
   },
@@ -397,7 +397,7 @@
   },
   {
     "id": 166,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "17.01.2020",
     "mileage": 53819
   },
@@ -415,13 +415,13 @@
   },
   {
     "id": 169,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "18.12.2019",
     "mileage": 88358
   },
   {
     "id": 170,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "22.07.2020",
     "mileage": 62258
   },
@@ -433,19 +433,19 @@
   },
   {
     "id": 172,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "12.10.2019",
     "mileage": 78275
   },
   {
     "id": 173,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "16.07.2020",
     "mileage": 69711
   },
   {
     "id": 174,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "08.07.2019",
     "mileage": 23597
   },
@@ -481,13 +481,13 @@
   },
   {
     "id": 180,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "08.05.2020",
     "mileage": 70469
   },
   {
     "id": 181,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "01.03.2021",
     "mileage": 32502
   },
@@ -499,19 +499,19 @@
   },
   {
     "id": 183,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "17.12.2020",
     "mileage": 23127
   },
   {
     "id": 184,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "23.11.2020",
     "mileage": 64177
   },
   {
     "id": 185,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "26.11.2020",
     "mileage": 32010
   },
@@ -541,7 +541,7 @@
   },
   {
     "id": 190,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": "02.04.2020",
     "mileage": 81104
   },
@@ -559,13 +559,13 @@
   },
   {
     "id": 193,
-    "vehicle": "Mersedes",
+    "vehicle": "Mercedes",
     "issueDate": "13.07.2020",
     "mileage": 64466
   },
   {
     "id": 194,
-    "vehicle": "Wolksvagen",
+    "vehicle": "Volkswagen",
     "issueDate": null,
     "mileage": 98703
   },
