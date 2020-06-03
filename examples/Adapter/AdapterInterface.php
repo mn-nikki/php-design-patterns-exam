@@ -2,19 +2,21 @@
 
 namespace Example\Adapter;
 
-use SplFileObject;
-
 /**
  * Interface for data fetcher.
  */
 interface AdapterInterface
 {
     /**
-     * @return mixed|resource|SplFileObject
+     * Read a file.
+     *
+     * @return mixed|\SplFileObject
      */
     public function connect();
 
     /**
+     * Return whole data.
+     *
      * @return iterable|object[]
      */
     public function getData(): iterable;

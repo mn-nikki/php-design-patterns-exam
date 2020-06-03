@@ -1,16 +1,13 @@
 <?php declare(strict_types=1);
 /**
- * 03.06.2020
+ * 03.06.2020.
  */
 
-
 namespace Example\Test\Adapter;
-
 
 use Example\Adapter\AbstractAdapter;
 use Example\Adapter\AdapterInterface;
 use Example\Test\TestCase;
-use RuntimeException;
 
 class AbstractAdapterTest extends TestCase
 {
@@ -26,7 +23,7 @@ class AbstractAdapterTest extends TestCase
 
     public function testNotAFile(): void
     {
-        $this->expectException(RuntimeException::class);
+        $this->expectException(\RuntimeException::class);
 
         $file = '/file/does/not/exists.csv';
         $adapter = $this->getClass($file);

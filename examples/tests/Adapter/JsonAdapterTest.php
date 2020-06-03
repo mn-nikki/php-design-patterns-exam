@@ -1,17 +1,12 @@
 <?php declare(strict_types=1);
 /**
- * 03.06.2020
+ * 03.06.2020.
  */
-
 
 namespace Example\Test\Adapter;
 
-
-use DateTimeInterface;
 use Example\Adapter\JsonAdapter;
 use Example\Test\TestCase;
-use ReflectionObject;
-use RuntimeException;
 
 class JsonAdapterTest extends TestCase
 {
@@ -30,15 +25,15 @@ class JsonAdapterTest extends TestCase
         $item = $data[0];
         $this->assertIsObject($item);
         $this->assertTrue(\property_exists($item, 'issueDate'));
-        $this->assertInstanceOf(DateTimeInterface::class, $item->issueDate);
+        $this->assertInstanceOf(\DateTimeInterface::class, $item->issueDate);
     }
 
     public function testDecodeWrongString(): void
     {
-        $this->expectException(RuntimeException::class);
+        $this->expectException(\RuntimeException::class);
 
         $adapter = new JsonAdapter($this->getData('data.json'));
-        $decodeString = (new ReflectionObject($adapter))->getMethod('decodeString');
+        $decodeString = (new \ReflectionObject($adapter))->getMethod('decodeString');
         $decodeString->setAccessible(true);
 
         $data = '[{"wrong": "data"}';
@@ -47,10 +42,10 @@ class JsonAdapterTest extends TestCase
 
     public function testDecodeNonArrayString(): void
     {
-        $this->expectException(RuntimeException::class);
+        $this->expectException(\RuntimeException::class);
 
         $adapter = new JsonAdapter($this->getData('data.json'));
-        $decodeString = (new ReflectionObject($adapter))->getMethod('decodeString');
+        $decodeString = (new \ReflectionObject($adapter))->getMethod('decodeString');
         $decodeString->setAccessible(true);
 
         $data = \json_encode(['foo' => 'bar'], JSON_THROW_ON_ERROR);

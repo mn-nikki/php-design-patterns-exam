@@ -2,9 +2,9 @@
 
 namespace Example\Adapter;
 
-use JsonException;
-use RuntimeException;
-
+/**
+ * Adapter for JSON-files.
+ */
 class JsonAdapter extends AbstractAdapter
 {
     /**
@@ -17,12 +17,19 @@ class JsonAdapter extends AbstractAdapter
         return $this->decodeString($file->fread($file->getSize()));
     }
 
+    /**
+     * Decodes and converts data.
+     *
+     * @param string $data
+     *
+     * @return iterable
+     */
     protected function decodeString(string $data): iterable
     {
         try {
             $result = \json_decode($data, false, 8, JSON_THROW_ON_ERROR);
-        } catch (JsonException $e) {
-            throw new RuntimeException($e->getMessage(), (int) $e->getCode(), $e);
+        } catch (\JsonException $e) {
+            throw new \RuntimeException($e->getMessage(), (int) $e->getCode(), $e);
         }
 
         if (!\is_iterable($result)) {

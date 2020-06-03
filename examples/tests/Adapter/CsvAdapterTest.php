@@ -1,18 +1,12 @@
 <?php declare(strict_types=1);
 /**
- * 03.06.2020
+ * 03.06.2020.
  */
-
 
 namespace Example\Test\Adapter;
 
-
-use DateTimeInterface;
 use Example\Adapter\CsvAdapter;
 use Example\Test\TestCase;
-use ReflectionObject;
-use RuntimeException;
-use SplFileObject;
 
 class CsvAdapterTest extends TestCase
 {
@@ -52,18 +46,18 @@ class CsvAdapterTest extends TestCase
 
         $this->assertIsObject($item);
         $this->assertTrue(\property_exists($item, 'issueDate'));
-        $this->assertInstanceOf(DateTimeInterface::class, $item->issueDate);
+        $this->assertInstanceOf(\DateTimeInterface::class, $item->issueDate);
     }
 
     public function testMakeFileHeaders(): void
     {
-        $this->expectException(RuntimeException::class);
+        $this->expectException(\RuntimeException::class);
 
         $file = \tempnam(\sys_get_temp_dir(), 'test-');
         $adapter = new CsvAdapter($file);
-        $makeHeaders = (new ReflectionObject($adapter))->getMethod('makeHeaders');
+        $makeHeaders = (new \ReflectionObject($adapter))->getMethod('makeHeaders');
         $makeHeaders->setAccessible(true);
-        $makeHeaders->invokeArgs($adapter, [new SplFileObject($file, 'rb')]);
+        $makeHeaders->invokeArgs($adapter, [new \SplFileObject($file, 'rb')]);
 
         $this->expectErrorMessageMatches('Wrong data format');
     }

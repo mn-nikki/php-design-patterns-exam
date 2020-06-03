@@ -2,11 +2,16 @@
 
 namespace Example\Adapter;
 
-use RuntimeException;
-use SplFileObject;
-
+/**
+ * Adapter for csv-files.
+ */
 class CsvAdapter extends AbstractAdapter
 {
+    /**
+     * Property names (from first string).
+     *
+     * @var array
+     */
     private array $headers;
 
     /**
@@ -21,13 +26,14 @@ class CsvAdapter extends AbstractAdapter
     }
 
     /**
-     * @param SplFileObject $file
+     * @param \SplFileObject $file
+     *
      * @return iterable
      */
-    private function decodeData(SplFileObject $file): iterable
+    private function decodeData(\SplFileObject $file): iterable
     {
         $file->rewind();
-        $file->setFlags(SplFileObject::READ_CSV);
+        $file->setFlags(\SplFileObject::READ_CSV);
 
         $result = [];
         foreach ($file as $n => $row) {
@@ -44,14 +50,21 @@ class CsvAdapter extends AbstractAdapter
         return $result;
     }
 
-    private function makeHeaders(SplFileObject $file): array
+    /**
+     * Makes property names array from first csv-string.
+     *
+     * @param \SplFileObject $file
+     *
+     * @return array
+     */
+    private function makeHeaders(\SplFileObject $file): array
     {
         $file->rewind();
-        $file->setFlags(SplFileObject::READ_CSV);
+        $file->setFlags(\SplFileObject::READ_CSV);
         $data = $file->current();
 
         if (!\is_array($data) || ($data[0] ?? null) === null) {
-            throw new RuntimeException('Wrong data format');
+            throw new \RuntimeException('Wrong data format');
         }
 
         return \array_values($data);

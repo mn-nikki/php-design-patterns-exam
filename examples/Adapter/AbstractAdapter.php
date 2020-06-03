@@ -2,15 +2,28 @@
 
 namespace Example\Adapter;
 
-use RuntimeException;
-use SplFileObject;
-
+/**
+ * Abstract Adapter.
+ */
 abstract class AbstractAdapter implements AdapterInterface
 {
+    /**
+     * Array with properties which will be converted to dates.
+     *
+     * @var array|string[]
+     */
     protected static array $dateFields = ['date', 'birthday', 'issueDate'];
 
+    /**
+     * Source file name.
+     *
+     * @var string
+     */
     protected string $filename;
 
+    /**
+     * @param string $filename
+     */
     public function __construct(string $filename)
     {
         $this->filename = $filename;
@@ -22,12 +35,19 @@ abstract class AbstractAdapter implements AdapterInterface
     public function connect()
     {
         if (!\is_file($this->filename) || !\is_readable($this->filename)) {
-            throw new RuntimeException(\sprintf('Unable to open \'%s\'', $this->filename));
+            throw new \RuntimeException(\sprintf('Unable to open \'%s\'', $this->filename));
         }
 
-        return new SplFileObject($this->filename, 'rb');
+        return new \SplFileObject($this->filename, 'rb');
     }
 
+    /**
+     * Result values converter.
+     *
+     * @param array $data
+     *
+     * @return array
+     */
     protected function convertValues(array $data): array
     {
         $result = [];
