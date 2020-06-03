@@ -1,601 +1,601 @@
 [
   {
     "id": 100,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "09.08.2019",
     "mileage": 84087
   },
   {
     "id": 101,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "22.04.2020",
     "mileage": 32220
   },
   {
     "id": 102,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "21.03.2021",
     "mileage": 80299
   },
   {
     "id": 103,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "01.08.2019",
     "mileage": 58782
   },
   {
     "id": 104,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "25.01.2020",
     "mileage": 95485
   },
   {
     "id": 105,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "18.01.2021",
     "mileage": 79911
   },
   {
     "id": 106,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "29.03.2021",
     "mileage": 90092
   },
   {
     "id": 107,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "14.04.2021",
     "mileage": 14694
   },
   {
     "id": 108,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "29.03.2021",
     "mileage": 95030
   },
   {
     "id": 109,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "27.07.2019",
     "mileage": 60075
   },
   {
     "id": 110,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "07.03.2021",
     "mileage": 62504
   },
   {
     "id": 111,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "13.12.2019",
     "mileage": 56251
   },
   {
     "id": 112,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "17.03.2020",
     "mileage": 29058
   },
   {
     "id": 113,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "12.10.2020",
     "mileage": 89154
   },
   {
     "id": 114,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "17.10.2019",
     "mileage": 45199
   },
   {
     "id": 115,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "27.04.2020",
     "mileage": 18330
   },
   {
     "id": 116,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "05.09.2019",
     "mileage": 86128
   },
   {
     "id": 117,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "03.09.2019",
     "mileage": 67090
   },
   {
     "id": 118,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "02.12.2019",
     "mileage": 28253
   },
   {
     "id": 119,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "14.04.2020",
     "mileage": 16104
   },
   {
     "id": 120,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "21.06.2019",
     "mileage": 10503
   },
   {
     "id": 121,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "17.01.2020",
     "mileage": 44635
   },
   {
     "id": 122,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "14.01.2021",
     "mileage": 42023
   },
   {
     "id": 123,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "14.04.2021",
     "mileage": 73229
   },
   {
     "id": 124,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "01.12.2019",
     "mileage": 89788
   },
   {
     "id": 125,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "24.02.2020",
     "mileage": 62189
   },
   {
     "id": 126,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "01.04.2020",
     "mileage": 91934
   },
   {
     "id": 127,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "24.08.2020",
     "mileage": 91665
   },
   {
     "id": 128,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "13.10.2020",
     "mileage": 86286
   },
   {
     "id": 129,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "26.03.2021",
     "mileage": 14972
   },
   {
     "id": 130,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "19.11.2020",
     "mileage": 58956
   },
   {
     "id": 131,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "23.10.2019",
     "mileage": 12327
   },
   {
     "id": 132,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "26.07.2019",
     "mileage": 55645
   },
   {
     "id": 133,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "31.12.2020",
     "mileage": 94401
   },
   {
     "id": 134,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "17.02.2020",
     "mileage": 45492
   },
   {
     "id": 135,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "24.04.2020",
     "mileage": 23230
   },
   {
     "id": 136,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "28.07.2019",
     "mileage": 95813
   },
   {
     "id": 137,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "31.03.2020",
     "mileage": 26777
   },
   {
     "id": 138,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "01.01.2020",
     "mileage": 36125
   },
   {
     "id": 139,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "04.01.2021",
     "mileage": 75799
   },
   {
     "id": 140,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "17.10.2020",
     "mileage": 38662
   },
   {
     "id": 141,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "06.08.2019",
     "mileage": 86233
   },
   {
     "id": 142,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "30.01.2021",
     "mileage": 18239
   },
   {
     "id": 143,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "05.02.2021",
     "mileage": 25839
   },
   {
     "id": 144,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "26.03.2021",
     "mileage": 34051
   },
   {
     "id": 145,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "19.03.2020",
     "mileage": 95185
   },
   {
     "id": 146,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "30.09.2019",
     "mileage": 23860
   },
   {
     "id": 147,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "09.05.2021",
     "mileage": 27508
   },
   {
     "id": 148,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "25.06.2020",
     "mileage": 37458
   },
   {
     "id": 149,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "17.05.2021",
     "mileage": 54925
   },
   {
     "id": 150,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "10.01.2021",
     "mileage": 29249
   },
   {
     "id": 151,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "22.03.2020",
     "mileage": 71365
   },
   {
     "id": 152,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "07.05.2021",
     "mileage": 12252
   },
   {
     "id": 153,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "31.01.2021",
     "mileage": 67771
   },
   {
     "id": 154,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "24.11.2019",
     "mileage": 36319
   },
   {
     "id": 155,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "27.12.2020",
     "mileage": 27439
   },
   {
     "id": 156,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "09.10.2020",
     "mileage": 94302
   },
   {
     "id": 157,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "13.02.2021",
     "mileage": 98374
   },
   {
     "id": 158,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "05.03.2020",
     "mileage": 41649
   },
   {
     "id": 159,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "30.06.2019",
     "mileage": 53928
   },
   {
     "id": 160,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "08.10.2019",
     "mileage": 52218
   },
   {
     "id": 161,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "18.05.2021",
     "mileage": 73298
   },
   {
     "id": 162,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "28.09.2019",
     "mileage": 79806
   },
   {
     "id": 163,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "04.12.2020",
     "mileage": 91313
   },
   {
     "id": 164,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "16.08.2020",
     "mileage": 72087
   },
   {
     "id": 165,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "21.09.2019",
     "mileage": 48191
   },
   {
     "id": 166,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "17.01.2020",
     "mileage": 53819
   },
   {
     "id": 167,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "18.12.2019",
     "mileage": 22234
   },
   {
     "id": 168,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "16.08.2019",
     "mileage": 58684
   },
   {
     "id": 169,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "18.12.2019",
     "mileage": 88358
   },
   {
     "id": 170,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "22.07.2020",
     "mileage": 62258
   },
   {
     "id": 171,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "21.01.2020",
     "mileage": 78040
   },
   {
     "id": 172,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "12.10.2019",
     "mileage": 78275
   },
   {
     "id": 173,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "16.07.2020",
     "mileage": 69711
   },
   {
     "id": 174,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "08.07.2019",
     "mileage": 23597
   },
   {
     "id": 175,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "30.11.2020",
     "mileage": 44723
   },
   {
     "id": 176,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "21.08.2019",
     "mileage": 92570
   },
   {
     "id": 177,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "11.06.2019",
     "mileage": 42454
   },
   {
     "id": 178,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "15.09.2019",
     "mileage": 49346
   },
   {
     "id": 179,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "12.01.2021",
     "mileage": 93842
   },
   {
     "id": 180,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "08.05.2020",
     "mileage": 70469
   },
   {
     "id": 181,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "01.03.2021",
     "mileage": 32502
   },
   {
     "id": 182,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "19.05.2021",
     "mileage": 86759
   },
   {
     "id": 183,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "17.12.2020",
     "mileage": 23127
   },
   {
     "id": 184,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "23.11.2020",
     "mileage": 64177
   },
   {
     "id": 185,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "26.11.2020",
     "mileage": 32010
   },
   {
     "id": 186,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "26.05.2021",
     "mileage": 96612
   },
   {
     "id": 187,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "23.01.2020",
     "mileage": 59369
   },
   {
     "id": 188,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "05.03.2020",
     "mileage": 40426
   },
   {
     "id": 189,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "06.05.2021",
     "mileage": 14522
   },
   {
     "id": 190,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": "02.04.2020",
     "mileage": 81104
   },
   {
     "id": 191,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "16.03.2021",
     "mileage": 43534
   },
   {
     "id": 192,
-    "vehicle": "Audi",
+    "build": "Audi",
     "issueDate": "06.07.2020",
     "mileage": 57160
   },
   {
     "id": 193,
-    "vehicle": "Mercedes",
+    "build": "Mercedes",
     "issueDate": "13.07.2020",
     "mileage": 64466
   },
   {
     "id": 194,
-    "vehicle": "Volkswagen",
+    "build": "Volkswagen",
     "issueDate": null,
     "mileage": 98703
   },
   {
     "id": 195,
-    "vehicle": "",
+    "build": "",
     "issueDate": "22.10.2020",
     "mileage": 12824
   },
   {
     "id": 196,
-    "vehicle": "Chrysler",
+    "build": "Chrysler",
     "issueDate": "28.05.2020",
     "mileage": 23338
   },
   {
     "id": 197,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "06.10.2020",
     "mileage": 21525
   },
   {
     "id": 198,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "27.02.2020",
     "mileage": 55252
   },
   {
     "id": 199,
-    "vehicle": "Mitsubishi",
+    "build": "Mitsubishi",
     "issueDate": "24.11.2020",
     "mileage": 55001
   }

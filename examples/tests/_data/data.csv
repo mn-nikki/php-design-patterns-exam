@@ -1,4 +1,4 @@
-id,vehicle,issueDate,mileage
+id,build,issueDate,mileage
 100,Audi,12.10.2019,48838
 101,Audi,27.06.2019,21994
 102,Mitsubishi,26.07.2019,11610
