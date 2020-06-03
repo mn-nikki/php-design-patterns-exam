@@ -1,1 +1,4 @@
 /vendor/
+/**/tests/_output
+.phpunit.result.cache
+.php_cs.cache
