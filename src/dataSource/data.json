@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Volkswagen",
+    "model": "New Beetle",
+    "issueDate": "05.07.1969",
+    "modelYear": 2003,
+    "vin": "YV4952CF6E1656481",
+    "mileage": 139164
+  },
+  {
+    "id": 2,
+    "manufacturer": "Nissan",
+    "model": "Murano",
+    "issueDate": "26.01.1977",
+    "modelYear": 2003,
+    "vin": "WBAUT93569A623325",
+    "mileage": 73459
+  },
+  {
+    "id": 3,
+    "manufacturer": "Toyota",
+    "model": "Highlander",
+    "issueDate": "12.03.1970",
+    "modelYear": 2007,
+    "vin": "WBAUC9C57DV511876",
+    "mileage": 118083
+  },
+  {
+    "id": 4,
+    "manufacturer": "Toyota",
+    "model": "Celica",
+    "issueDate": "18.02.1968",
+    "modelYear": 2003,
+    "vin": "3D4PG3FG9BT760727",
+    "mileage": 146644
+  },
+  {
+    "id": 5,
+    "manufacturer": "BMW",
+    "model": "3 Series",
+    "issueDate": "26.05.1961",
+    "modelYear": 1998,
+    "vin": "WAUVT68E62A634357",
+    "mileage": 103150
+  },
+  {
+    "id": 6,
+    "manufacturer": "Mercedes-Benz",
+    "model": "GL-Class",
+    "issueDate": "22.09.1967",
+    "modelYear": 2011,
+    "vin": "3D7TT2HT4BG944001",
+    "mileage": 101417
+  },
+  {
+    "id": 7,
+    "manufacturer": "Dodge",
+    "model": "Ram 1500 Club",
+    "issueDate": "11.04.1964",
+    "modelYear": 1999,
+    "vin": "KMHTC6AD2DU392577",
+    "mileage": 70194
+  },
+  {
+    "id": 8,
+    "manufacturer": "Mazda",
+    "model": "MX-5",
+    "issueDate": "09.09.1964",
+    "modelYear": 2002,
+    "vin": "WBXPC93439W030082",
+    "mileage": 88875
+  },
+  {
+    "id": 9,
+    "manufacturer": "Chevrolet",
+    "model": "Suburban 1500",
+    "issueDate": "26.10.1966",
+    "modelYear": 1999,
+    "vin": "JN1CV6FE7DM837592",
+    "mileage": 104861
+  },
+  {
+    "id": 10,
+    "manufacturer": "Chrysler",
+    "model": "300",
+    "issueDate": "28.12.1977",
+    "modelYear": 2009,
+    "vin": "2T1BU4EE7DC912354",
+    "mileage": 136662
+  },
+  {
+    "id": 11,
+    "manufacturer": "Toyota",
+    "model": "Cressida",
+    "issueDate": "20.06.1976",
+    "modelYear": 1992,
+    "vin": "JTDKN3DU9F0951931",
+    "mileage": 165031
+  },
+  {
+    "id": 12,
+    "manufacturer": "Ford",
+    "model": "E-Series",
+    "issueDate": "29.05.1975",
+    "modelYear": 2001,
+    "vin": "WBANN73596C078434",
+    "mileage": 91086
+  },
+  {
+    "id": 13,
+    "manufacturer": "Mercedes-Benz",
+    "model": "CLK-Class",
+    "issueDate": "13.12.1969",
+    "modelYear": 2003,
+    "vin": "2G4GR5GX8F9735811",
+    "mileage": 116395
+  },
+  {
+    "id": 14,
+    "manufacturer": "Chevrolet",
+    "model": "Vega",
+    "issueDate": "19.06.1972",
+    "modelYear": 1971,
+    "vin": "1FTNX2A53AE799894",
+    "mileage": 151288
+  },
+  {
+    "id": 15,
+    "manufacturer": "Mazda",
+    "model": "Protege5",
+    "issueDate": "08.09.1965",
+    "modelYear": 2003,
+    "vin": "WBAEV33473P853351",
+    "mileage": 141290
+  },
+  {
+    "id": 16,
+    "manufacturer": "Kia",
+    "model": "Spectra",
+    "issueDate": "10.11.1965",
+    "modelYear": 2007,
+    "vin": "WBAFZ9C55DC300615",
+    "mileage": 124257
+  },
+  {
+    "id": 17,
+    "manufacturer": "Dodge",
+    "model": "D150",
+    "issueDate": "11.09.1964",
+    "modelYear": 1992,
+    "vin": "1G4GE5G35CF188024",
+    "mileage": 142149
+  },
+  {
+    "id": 18,
+    "manufacturer": "Ford",
+    "model": "E-Series",
+    "issueDate": "06.12.1971",
+    "modelYear": 1993,
+    "vin": "NM0AE8F78F1555223",
+    "mileage": 137244
+  },
+  {
+    "id": 19,
+    "manufacturer": "Pontiac",
+    "model": "Grand Am",
+    "issueDate": "27.09.1965",
+    "modelYear": 1993,
+    "vin": "1GTN1UEH3EZ128387",
+    "mileage": 119645
+  },
+  {
+    "id": 20,
+    "manufacturer": "Mercedes-Benz",
+    "model": "CL-Class",
+    "issueDate": "11.11.1967",
+    "modelYear": 2002,
+    "vin": "YV1902AH2C1298471",
+    "mileage": 112738
+  },
+  {
+    "id": 21,
+    "manufacturer": "Ford",
+    "model": "F250",
+    "issueDate": "02.01.1966",
+    "modelYear": 2011,
+    "vin": "JN1BJ0HP1EM429755",
+    "mileage": 103643
+  },
+  {
+    "id": 22,
+    "manufacturer": "BMW",
+    "model": "5 Series",
+    "issueDate": "16.03.1972",
+    "modelYear": 2007,
+    "vin": "WDCYC3HF3AX955723",
+    "mileage": 144788
+  },
+  {
+    "id": 23,
+    "manufacturer": "Chevrolet",
+    "model": "Silverado",
+    "issueDate": "25.03.1973",
+    "modelYear": 2008,
+    "vin": "1G6DJ8E31C0451641",
+    "mileage": 159537
+  },
+  {
+    "id": 24,
+    "manufacturer": "Saab",
+    "model": "9-4X",
+    "issueDate": "02.10.1971",
+    "modelYear": 2011,
+    "vin": "3GYFK66N43G936157",
+    "mileage": 97684
+  },
+  {
+    "id": 25,
+    "manufacturer": "Ford",
+    "model": "Expedition",
+    "issueDate": "16.07.1961",
+    "modelYear": 2010,
+    "vin": "WA1WYAFE0AD874963",
+    "mileage": 140328
+  },
+  {
+    "id": 26,
+    "manufacturer": "Porsche",
+    "model": "Carrera GT",
+    "issueDate": "29.12.1973",
+    "modelYear": 2004,
+    "vin": "4A31K2DF3CE818903",
+    "mileage": 179971
+  },
+  {
+    "id": 27,
+    "manufacturer": "Cadillac",
+    "model": "Escalade EXT",
+    "issueDate": "05.01.1966",
+    "modelYear": 2011,
+    "vin": "1C3CDFCB7ED244170",
+    "mileage": 173524
+  },
+  {
+    "id": 28,
+    "manufacturer": "Dodge",
+    "model": "Caravan",
+    "issueDate": "08.01.1962",
+    "modelYear": 2007,
+    "vin": "1G6DG577590619996",
+    "mileage": 88553
+  },
+  {
+    "id": 29,
+    "manufacturer": "Chevrolet",
+    "model": "Suburban 1500",
+    "issueDate": "12.02.1968",
+    "modelYear": 1999,
+    "vin": "WDCYC7DF2FX794902",
+    "mileage": 145280
+  },
+  {
+    "id": 30,
+    "manufacturer": "Subaru",
+    "model": "Legacy",
+    "issueDate": "29.03.1962",
+    "modelYear": 1989,
+    "vin": "3GYFK66N65G424113",
+    "mileage": 83527
+  },
+  {
+    "id": 31,
+    "manufacturer": "Pontiac",
+    "model": "Grand Prix",
+    "issueDate": "10.09.1965",
+    "modelYear": 1965,
+    "vin": "JA32U1FU9AU337630",
+    "mileage": 178115
+  },
+  {
+    "id": 32,
+    "manufacturer": "Chevrolet",
+    "model": "3500",
+    "issueDate": "27.06.1966",
+    "modelYear": 1995,
+    "vin": "1FTWF3D50AE949565",
+    "mileage": 93093
+  },
+  {
+    "id": 33,
+    "manufacturer": "Volvo",
+    "model": "S70",
+    "issueDate": "31.05.1969",
+    "modelYear": 1999,
+    "vin": "1G6DV8EP1D0319732",
+    "mileage": 90440
+  },
+  {
+    "id": 34,
+    "manufacturer": "Mitsubishi",
+    "model": "Mirage",
+    "issueDate": "20.01.1975",
+    "modelYear": 1989,
+    "vin": "WBAKG7C57DJ058561",
+    "mileage": 77718
+  },
+  {
+    "id": 35,
+    "manufacturer": "Hyundai",
+    "model": "Elantra",
+    "issueDate": "03.12.1979",
+    "modelYear": 2003,
+    "vin": "5NPDH4AE2DH732845",
+    "mileage": 99274
+  },
+  {
+    "id": 36,
+    "manufacturer": "Hyundai",
+    "model": "Tucson",
+    "issueDate": "28.01.1976",
+    "modelYear": 2012,
+    "vin": "WA1BY94L27D868170",
+    "mileage": 81109
+  },
+  {
+    "id": 37,
+    "manufacturer": "Lotus",
+    "model": "Esprit",
+    "issueDate": "07.11.1969",
+    "modelYear": 2000,
+    "vin": "YV1672MK3D2092707",
+    "mileage": 150229
+  },
+  {
+    "id": 38,
+    "manufacturer": "Hyundai",
+    "model": "Accent",
+    "issueDate": "20.12.1965",
+    "modelYear": 2008,
+    "vin": "WBA3B1C54F5937706",
+    "mileage": 126210
+  },
+  {
+    "id": 39,
+    "manufacturer": "Toyota",
+    "model": "Corolla",
+    "issueDate": "22.08.1975",
+    "modelYear": 1993,
+    "vin": "JA32U1FU0BU353815",
+    "mileage": 113060
+  },
+  {
+    "id": 40,
+    "manufacturer": "Mazda",
+    "model": "Mazdaspeed 3",
+    "issueDate": "13.05.1975",
+    "modelYear": 2007,
+    "vin": "JN1CV6EK5CM796840",
+    "mileage": 158064
+  },
+  {
+    "id": 41,
+    "manufacturer": "Chevrolet",
+    "model": "Suburban 2500",
+    "issueDate": "09.11.1978",
+    "modelYear": 2001,
+    "vin": "JTHKD5BH5C2534177",
+    "mileage": 102243
+  },
+  {
+    "id": 42,
+    "manufacturer": "Chevrolet",
+    "model": "Malibu",
+    "issueDate": "29.10.1962",
+    "modelYear": 2012,
+    "vin": "WA1YD64B85N026369",
+    "mileage": 139511
+  },
+  {
+    "id": 43,
+    "manufacturer": "Ford",
+    "model": "Ranger",
+    "issueDate": "14.03.1975",
+    "modelYear": 1992,
+    "vin": "WAUDG98E06A268760",
+    "mileage": 79944
+  },
+  {
+    "id": 44,
+    "manufacturer": "Mitsubishi",
+    "model": "Mighty Max Macro",
+    "issueDate": "18.06.1971",
+    "modelYear": 1993,
+    "vin": "WBA6A0C54DD032184",
+    "mileage": 98487
+  },
+  {
+    "id": 45,
+    "manufacturer": "Chevrolet",
+    "model": "Tahoe",
+    "issueDate": "13.11.1977",
+    "modelYear": 2012,
+    "vin": "WAURFAFR1BA759087",
+    "mileage": 133416
+  },
+  {
+    "id": 46,
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "issueDate": "01.11.1976",
+    "modelYear": 1979,
+    "vin": "WBAYF8C55DD468907",
+    "mileage": 137514
+  },
+  {
+    "id": 47,
+    "manufacturer": "Mazda",
+    "model": "B-Series",
+    "issueDate": "26.01.1975",
+    "modelYear": 1987,
+    "vin": "WA1LGAFE3FD599134",
+    "mileage": 119963
+  },
+  {
+    "id": 48,
+    "manufacturer": "Ford",
+    "model": "Falcon",
+    "issueDate": "23.12.1967",
+    "modelYear": 1966,
+    "vin": "WVGEG9BP0CD030639",
+    "mileage": 87080
+  },
+  {
+    "id": 49,
+    "manufacturer": "Subaru",
+    "model": "Outback",
+    "issueDate": "20.08.1960",
+    "modelYear": 2001,
+    "vin": "1FTSF3B5XAE232575",
+    "mileage": 116390
+  },
+  {
+    "id": 50,
+    "manufacturer": "Pontiac",
+    "model": "Vibe",
+    "issueDate": "27.06.1968",
+    "modelYear": 2004,
+    "vin": "W04GZ5GV7B1010597",
+    "mileage": 120287
+  },
+  {
+    "id": 51,
+    "manufacturer": "Land Rover",
+    "model": "LR3",
+    "issueDate": "26.04.1963",
+    "modelYear": 2008,
+    "vin": "1GYEK63N82R773138",
+    "mileage": 73104
+  },
+  {
+    "id": 52,
+    "manufacturer": "Pontiac",
+    "model": "LeMans",
+    "issueDate": "22.01.1975",
+    "modelYear": 1968,
+    "vin": "JN8AZ1MU9EW966658",
+    "mileage": 92403
+  },
+  {
+    "id": 53,
+    "manufacturer": "Plymouth",
+    "model": "Grand Voyager",
+    "issueDate": "25.07.1967",
+    "modelYear": 1994,
+    "vin": "3GYFNDE36DS010451",
+    "mileage": 163257
+  },
+  {
+    "id": 54,
+    "manufacturer": "Chevrolet",
+    "model": "Blazer",
+    "issueDate": "25.01.1966",
+    "modelYear": 1998,
+    "vin": "WVGBF7A96AD954514",
+    "mileage": 80701
+  },
+  {
+    "id": 55,
+    "manufacturer": "Eagle",
+    "model": "Premier",
+    "issueDate": "22.09.1972",
+    "modelYear": 1992,
+    "vin": "WA1CV94L97D104622",
+    "mileage": 162435
+  },
+  {
+    "id": 56,
+    "manufacturer": "Chrysler",
+    "model": "300M",
+    "issueDate": "10.03.1964",
+    "modelYear": 2000,
+    "vin": "3G5DA03E65S856786",
+    "mileage": 129677
+  },
+  {
+    "id": 57,
+    "manufacturer": "Subaru",
+    "model": "Brat",
+    "issueDate": "03.08.1968",
+    "modelYear": 1984,
+    "vin": "5UMDU93517L861502",
+    "mileage": 83325
+  },
+  {
+    "id": 58,
+    "manufacturer": "Lexus",
+    "model": "IS",
+    "issueDate": "23.01.1964",
+    "modelYear": 2009,
+    "vin": "5FPYK1F26DB291095",
+    "mileage": 70347
+  },
+  {
+    "id": 59,
+    "manufacturer": "Mazda",
+    "model": "Tribute",
+    "issueDate": "08.10.1968",
+    "modelYear": 2010,
+    "vin": "SAJWA4GB3FL368672",
+    "mileage": 103325
+  },
+  {
+    "id": 60,
+    "manufacturer": "Dodge",
+    "model": "Grand Caravan",
+    "issueDate": "14.04.1968",
+    "modelYear": 2012,
+    "vin": "5GALVCED2AJ599704",
+    "mileage": 152506
+  },
+  {
+    "id": 61,
+    "manufacturer": "Chevrolet",
+    "model": "Suburban 2500",
+    "issueDate": "31.01.1975",
+    "modelYear": 2007,
+    "vin": "WBAVB33576P022955",
+    "mileage": 90592
+  },
+  {
+    "id": 62,
+    "manufacturer": "Oldsmobile",
+    "model": "Cutlass",
+    "issueDate": "05.10.1960",
+    "modelYear": 1998,
+    "vin": "1G6AK5SX8D0849078",
+    "mileage": 77804
+  },
+  {
+    "id": 63,
+    "manufacturer": "Land Rover",
+    "model": "Freelander",
+    "issueDate": "05.02.1971",
+    "modelYear": 2011,
+    "vin": "5J8TB1H27CA775804",
+    "mileage": 76237
+  },
+  {
+    "id": 64,
+    "manufacturer": "Ford",
+    "model": "Thunderbird",
+    "issueDate": "02.10.1968",
+    "modelYear": 1972,
+    "vin": "WUADUAFG3CN156477",
+    "mileage": 153753
+  },
+  {
+    "id": 65,
+    "manufacturer": "GMC",
+    "model": "Yukon XL 1500",
+    "issueDate": "24.01.1962",
+    "modelYear": 2012,
+    "vin": "WBA3T7C57F5653437",
+    "mileage": 80589
+  },
+  {
+    "id": 66,
+    "manufacturer": "Infiniti",
+    "model": "I",
+    "issueDate": "05.08.1963",
+    "modelYear": 1998,
+    "vin": "JH4CU2F68CC212851",
+    "mileage": 118139
+  },
+  {
+    "id": 67,
+    "manufacturer": "Ford",
+    "model": "Fusion",
+    "issueDate": "21.02.1972",
+    "modelYear": 2010,
+    "vin": "WAUPFAFM7BA372491",
+    "mileage": 139231
+  },
+  {
+    "id": 68,
+    "manufacturer": "Pontiac",
+    "model": "Tempest",
+    "issueDate": "11.01.1979",
+    "modelYear": 1966,
+    "vin": "1FMJK1HT6FE211386",
+    "mileage": 116142
+  },
+  {
+    "id": 69,
+    "manufacturer": "Dodge",
+    "model": "Dynasty",
+    "issueDate": "06.09.1969",
+    "modelYear": 1993,
+    "vin": "WAUEG98E56A559243",
+    "mileage": 178862
+  },
+  {
+    "id": 70,
+    "manufacturer": "Buick",
+    "model": "Skylark",
+    "issueDate": "02.12.1977",
+    "modelYear": 1995,
+    "vin": "WBANE53537C726341",
+    "mileage": 94675
+  },
+  {
+    "id": 71,
+    "manufacturer": "Porsche",
+    "model": "Boxster",
+    "issueDate": "01.08.1963",
+    "modelYear": 2000,
+    "vin": "WAUJC58E45A694876",
+    "mileage": 179168
+  },
+  {
+    "id": 72,
+    "manufacturer": "Mitsubishi",
+    "model": "Truck",
+    "issueDate": "22.07.1966",
+    "modelYear": 1986,
+    "vin": "1G6AB5R38D0114085",
+    "mileage": 164798
+  },
+  {
+    "id": 73,
+    "manufacturer": "Mercedes-Benz",
+    "model": "SLR McLaren",
+    "issueDate": "27.10.1964",
+    "modelYear": 2007,
+    "vin": "WAUMF68P76A670536",
+    "mileage": 178672
+  },
+  {
+    "id": 74,
+    "manufacturer": "Chevrolet",
+    "model": "G-Series 2500",
+    "issueDate": "08.06.1966",
+    "modelYear": 1997,
+    "vin": "WBAVA33578P488021",
+    "mileage": 81720
+  },
+  {
+    "id": 75,
+    "manufacturer": "BMW",
+    "model": "3 Series",
+    "issueDate": "19.10.1960",
+    "modelYear": 2003,
+    "vin": "KL4CJHSB5EB458727",
+    "mileage": 176504
+  },
+  {
+    "id": 76,
+    "manufacturer": "Chevrolet",
+    "model": "3500",
+    "issueDate": "07.02.1980",
+    "modelYear": 1992,
+    "vin": "3GYFNBE36CS492955",
+    "mileage": 75374
+  },
+  {
+    "id": 77,
+    "manufacturer": "Pontiac",
+    "model": "Grand Am",
+    "issueDate": "15.03.1970",
+    "modelYear": 1997,
+    "vin": "JA32X2HU8EU107075",
+    "mileage": 147511
+  },
+  {
+    "id": 78,
+    "manufacturer": "Maybach",
+    "model": "57",
+    "issueDate": "21.10.1967",
+    "modelYear": 2005,
+    "vin": "5LMJJ2JT7FE062215",
+    "mileage": 159085
+  },
+  {
+    "id": 79,
+    "manufacturer": "Buick",
+    "model": "Reatta",
+    "issueDate": "06.09.1967",
+    "modelYear": 1988,
+    "vin": "WAULK98K29N572511",
+    "mileage": 110828
+  },
+  {
+    "id": 80,
+    "manufacturer": "Volkswagen",
+    "model": "Passat",
+    "issueDate": "25.07.1979",
+    "modelYear": 2006,
+    "vin": "WAUJT68E63A271123",
+    "mileage": 162353
+  },
+  {
+    "id": 81,
+    "manufacturer": "Volvo",
+    "model": "S80",
+    "issueDate": "18.11.1978",
+    "modelYear": 2005,
+    "vin": "5UXFA93586L647139",
+    "mileage": 156977
+  },
+  {
+    "id": 82,
+    "manufacturer": "Mazda",
+    "model": "Protege",
+    "issueDate": "20.03.1971",
+    "modelYear": 1999,
+    "vin": "WAUAFAFL8AA565454",
+    "mileage": 102902
+  },
+  {
+    "id": 83,
+    "manufacturer": "Mazda",
+    "model": "MPV",
+    "issueDate": "08.05.1971",
+    "modelYear": 2006,
+    "vin": "5GALRAED9AJ672057",
+    "mileage": 85007
+  },
+  {
+    "id": 84,
+    "manufacturer": "Plymouth",
+    "model": "Colt",
+    "issueDate": "14.08.1961",
+    "modelYear": 1994,
+    "vin": "5J6YH1H30AL357754",
+    "mileage": 86702
+  },
+  {
+    "id": 85,
+    "manufacturer": "Plymouth",
+    "model": "Voyager",
+    "issueDate": "06.09.1965",
+    "modelYear": 1995,
+    "vin": "WBA3T1C52FP779741",
+    "mileage": 84288
+  },
+  {
+    "id": 86,
+    "manufacturer": "Chevrolet",
+    "model": "Express 3500",
+    "issueDate": "03.10.1963",
+    "modelYear": 2001,
+    "vin": "WVWAB7AJ5CW076149",
+    "mileage": 111670
+  },
+  {
+    "id": 87,
+    "manufacturer": "Mercedes-Benz",
+    "model": "SLR McLaren",
+    "issueDate": "15.12.1963",
+    "modelYear": 2007,
+    "vin": "4T1BF1FK3CU206413",
+    "mileage": 122533
+  },
+  {
+    "id": 88,
+    "manufacturer": "Dodge",
+    "model": "Ram 3500",
+    "issueDate": "04.11.1964",
+    "modelYear": 1995,
+    "vin": "WAULD64B12N373888",
+    "mileage": 132465
+  },
+  {
+    "id": 89,
+    "manufacturer": "Dodge",
+    "model": "Nitro",
+    "issueDate": "25.02.1972",
+    "modelYear": 2011,
+    "vin": "KNAFT4A22A5473196",
+    "mileage": 147608
+  },
+  {
+    "id": 90,
+    "manufacturer": "GMC",
+    "model": "Envoy",
+    "issueDate": "23.12.1976",
+    "modelYear": 1998,
+    "vin": "1N4AL2EP6DC636011",
+    "mileage": 141985
+  },
+  {
+    "id": 91,
+    "manufacturer": "Chevrolet",
+    "model": "Equinox",
+    "issueDate": "06.04.1963",
+    "modelYear": 2010,
+    "vin": "5N1CL0MMXEC643183",
+    "mileage": 159248
+  },
+  {
+    "id": 92,
+    "manufacturer": "Nissan",
+    "model": "NV1500",
+    "issueDate": "22.01.1973",
+    "modelYear": 2012,
+    "vin": "1HGCR2E34EA415052",
+    "mileage": 80116
+  },
+  {
+    "id": 93,
+    "manufacturer": "Eagle",
+    "model": "Vision",
+    "issueDate": "11.03.1974",
+    "modelYear": 1993,
+    "vin": "1N4AL3AP3DC456996",
+    "mileage": 103155
+  },
+  {
+    "id": 94,
+    "manufacturer": "Chevrolet",
+    "model": "Corvette",
+    "issueDate": "27.12.1978",
+    "modelYear": 1987,
+    "vin": "1G4HG5EM3AU625215",
+    "mileage": 176599
+  },
+  {
+    "id": 95,
+    "manufacturer": "Infiniti",
+    "model": "QX",
+    "issueDate": "07.05.1965",
+    "modelYear": 2005,
+    "vin": "3N1AB6AP6BL792547",
+    "mileage": 123256
+  },
+  {
+    "id": 96,
+    "manufacturer": "GMC",
+    "model": "Suburban 2500",
+    "issueDate": "06.02.1972",
+    "modelYear": 1996,
+    "vin": "WBA3B5C54EF553280",
+    "mileage": 99689
+  },
+  {
+    "id": 97,
+    "manufacturer": "Ford",
+    "model": "Mustang",
+    "issueDate": "26.11.1960",
+    "modelYear": 1991,
+    "vin": "WAU3FAFR7CA252671",
+    "mileage": 138808
+  },
+  {
+    "id": 98,
+    "manufacturer": "Volkswagen",
+    "model": "Phaeton",
+    "issueDate": "27.04.1976",
+    "modelYear": 2006,
+    "vin": "SCBDC3ZA4DC409647",
+    "mileage": 167606
+  },
+  {
+    "id": 99,
+    "manufacturer": "Mitsubishi",
+    "model": "Pajero",
+    "issueDate": "06.05.1961",
+    "modelYear": 1984,
+    "vin": "WVGEP9BP3FD867681",
+    "mileage": 177458
+  },
+  {
+    "id": 100,
+    "manufacturer": "Spyker",
+    "model": "C8 Laviolette",
+    "issueDate": "31.08.1976",
+    "modelYear": 2004,
+    "vin": "5N1AZ2MH1FN137803",
+    "mileage": 178615
+  }
+]
