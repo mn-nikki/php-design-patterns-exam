@@ -22,7 +22,9 @@
             <directory suffix=".php">src</directory>
             <exclude>
                 <directory suffix=".php">examples/tests</directory>
+                <directory suffix=".php">examples/public</directory>
                 <directory suffix=".php">src/tests</directory>
+                <directory suffix=".php">src/public</directory>
             </exclude>
         </whitelist>
     </filter>

@@ -32,7 +32,8 @@ class VehicleRepositoryTest extends TestCase
 
     /**
      * @dataProvider provideVehicles
-     * @param int $id
+     *
+     * @param int  $id
      * @param bool $exists
      */
     public function testFindMethod(int $id, bool $exists): void

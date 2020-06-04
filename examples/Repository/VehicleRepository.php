@@ -4,6 +4,7 @@ namespace Example\Repository;
 
 use Example\Adapter\AdapterInterface;
 use Example\Entity\Vehicle;
+use Example\ObjectFactory\Factory;
 use Example\ObjectFactory\FactoryInterface;
 
 /**
@@ -20,11 +21,11 @@ class VehicleRepository extends AbstractRepository
      * @param AdapterInterface $adapter
      * @param FactoryInterface $factory
      */
-    public function __construct(AdapterInterface $adapter, FactoryInterface $factory)
+    public function __construct(AdapterInterface $adapter, FactoryInterface $factory = null)
     {
         parent::__construct($adapter);
         $this->className = Vehicle::class;
-        $this->factory = $factory;
+        $this->factory = $factory ?? new Factory();
     }
 
     /**

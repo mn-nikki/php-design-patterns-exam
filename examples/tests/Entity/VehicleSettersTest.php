@@ -18,6 +18,7 @@ class VehicleSettersTest extends TestCase
 
     /**
      * @dataProvider provideMethods
+     *
      * @param string $method
      * @param $value
      */
