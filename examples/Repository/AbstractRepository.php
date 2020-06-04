@@ -45,7 +45,7 @@ abstract class AbstractRepository
      * @param int|null $number
      * @param int      $offset
      *
-     * @return iterable
+     * @return iterable|object[]
      */
     public function get(int $number = null, int $offset = 0): iterable
     {

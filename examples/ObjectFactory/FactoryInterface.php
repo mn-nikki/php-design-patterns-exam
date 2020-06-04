@@ -18,5 +18,5 @@ interface FactoryInterface
      *
      * @return object|array
      */
-    public function make($data, ?string $className): object;
+    public function make($data, ?string $className = null): object;
 }

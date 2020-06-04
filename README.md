@@ -75,4 +75,6 @@ DataMapper для репозитория.
 
 Класс фабрики в методе `build` (или `make`) из имени целевого класса создаёт ReflectionObject, получает все его свойства, определяет тип каждого (если это возможно), находит имя свойства в исходном объекте и присваивает значение исходного свойства полю целевого класса.
 
-Пример фабрики в `examples/ObjectFactory/Factory.php`
+Пример фабрики в `examples/ObjectFactory/Factory.php`    
+Пример репозитория для класса `Example\Entity\Vehicle` в `examples/Repository/VehicleRepository.php`
+
