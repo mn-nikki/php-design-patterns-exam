@@ -44,7 +44,7 @@ class Application
         }
 
         if (!$this->routesConfig->offsetExists($request->getPathInfo())) {
-            return new Response(null, Response::HTTP_NOT_FOUND);
+            return new Response('Page not found', Response::HTTP_NOT_FOUND);
         }
 
         $callback = $this->routesConfig->offsetGet($request->getPathInfo());
