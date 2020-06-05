@@ -96,4 +96,36 @@ class Response
 
         return $this;
     }
+
+    /**
+     * @return array|string[]
+     */
+    public static function getStatusTexts()
+    {
+        return self::$statusTexts;
+    }
+
+    /**
+     * @return ParameterBag
+     */
+    public function getHeaders(): ParameterBag
+    {
+        return $this->headers;
+    }
+
+    /**
+     * @return int
+     */
+    public function getStatusCode(): int
+    {
+        return $this->statusCode;
+    }
+
+    /**
+     * @return string
+     */
+    public function getStatusText(): string
+    {
+        return $this->statusText;
+    }
 }

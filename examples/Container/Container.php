@@ -21,7 +21,8 @@ class Container implements ContainerInterface, \ArrayAccess
 
     /**
      * @param string|object $abstract ID of container instance
-     * @param object|null $concrete
+     * @param object|null   $concrete
+     *
      * @return $this
      */
     public function set($abstract, object $concrete = null): self
@@ -67,6 +68,7 @@ class Container implements ContainerInterface, \ArrayAccess
 
     /**
      * @inheritDoc
+     *
      * @throws NotRegisteredException
      */
     public function offsetGet($offset)

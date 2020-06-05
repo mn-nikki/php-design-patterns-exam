@@ -3,7 +3,6 @@
 namespace Example\Http;
 
 use Example\Routes\Config;
-use RuntimeException;
 
 /**
  * Application.
@@ -11,10 +10,11 @@ use RuntimeException;
 class Application
 {
     private static ?Application $instance = null;
-    private Config $routesConfig;
+    private ?Config $routesConfig = null;
 
     /**
      * @param Config|null $routesConfig
+     *
      * @return Application
      */
     public static function getInstance(?Config $routesConfig = null): Application
@@ -29,9 +29,16 @@ class Application
         return self::$instance;
     }
 
+    public function terminate(): void
+    {
+        self::$instance = null;
+        $this->routesConfig = null;
+    }
+
     /**
-     * @param Request $request
+     * @param Request     $request
      * @param Config|null $routesConfig
+     *
      * @return Response
      */
     public function handle(Request $request, ?Config $routesConfig = null): Response
@@ -40,7 +47,7 @@ class Application
             $this->routesConfig = $routesConfig;
         }
         if ($this->routesConfig === null) {
-            throw new RuntimeException('Routes config id not defined');
+            throw new \RuntimeException('Routes config is not defined');
         }
 
         if (!$this->routesConfig->offsetExists($request->getPathInfo())) {

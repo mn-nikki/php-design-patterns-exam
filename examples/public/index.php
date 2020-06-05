@@ -40,5 +40,4 @@ $routesConfig = Config::configure($routes);
 $application = Application::getInstance($routesConfig);
 $response = $application->handle(Request::create());
 $response->send();
-
-exit(0);
+$application->terminate();

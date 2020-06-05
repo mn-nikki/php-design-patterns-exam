@@ -17,13 +17,14 @@ class Request
 
     /**
      * Request constructor.
+     *
      * @param array $query
      * @param array $request
      * @param array $attributes
      * @param array $cookies
      * @param array $files
      * @param array $server
-     * @param null $content
+     * @param null  $content
      */
     public function __construct(array $query = [], array $request = [], array $attributes = [], array $cookies = [], array $files = [], array $server = [], $content = null)
     {
@@ -37,7 +38,7 @@ class Request
      * @param array $cookies
      * @param array $files
      * @param array $server
-     * @param null $content
+     * @param null  $content
      */
     public function init(array $query = [], array $request = [], array $attributes = [], array $cookies = [], array $files = [], array $server = [], $content = null): void
     {
@@ -103,14 +104,18 @@ class Request
     }
 
     /**
-     * Path and query
+     * Path and query.
      *
      * @return string|null
      */
     public function getRequestUri(): ?string
     {
         $requestUri = $this->server->get('REQUEST_URI');
-        if ('' !== $requestUri && '/' === $requestUri[0]) {
+        if ($requestUri === null) {
+            return '/';
+        }
+
+        if (!empty($requestUri) && \strpos($requestUri, '/') === 0) {
             if (($pos = strpos($requestUri, '#')) !== false) {
                 $requestUri = substr($requestUri, 0, $pos);
             }

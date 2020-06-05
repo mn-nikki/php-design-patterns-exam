@@ -41,6 +41,7 @@ class MainController extends AbstractController
 
     /**
      * @param Request $request
+     *
      * @return Response
      */
     public function show(Request $request): Response

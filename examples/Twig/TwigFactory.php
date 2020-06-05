@@ -13,10 +13,11 @@ use Twig\Loader\LoaderInterface;
 class TwigFactory
 {
     /**
-     * @param array $paths Paths to templates
-     * @param array $options Environment options
+     * @param array                      $paths      Paths to templates
+     * @param array                      $options    Environment options
      * @param array|ExtensionInterface[] $extensions
-     * @param LoaderInterface|null $loader
+     * @param LoaderInterface|null       $loader
+     *
      * @return Environment
      */
     public static function make(array $paths = [], array $options = [], array $extensions = [], ?LoaderInterface $loader = null): Environment
