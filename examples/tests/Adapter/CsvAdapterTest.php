@@ -1,7 +1,4 @@
 <?php declare(strict_types=1);
-/**
- * 03.06.2020.
- */
 
 namespace Example\Test\Adapter;
 

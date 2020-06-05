@@ -8,7 +8,7 @@ use Example\ObjectFactory\Factory;
 use Example\ObjectFactory\FactoryInterface;
 
 /**
- * Repository for vehicle class.
+ * Repository for vehicle class.​​
  */
 class VehicleRepository extends AbstractRepository
 {
@@ -16,7 +16,7 @@ class VehicleRepository extends AbstractRepository
     private FactoryInterface $factory;
 
     /**
-     * VehicleRepository constructor.
+     * VehicleRepository constructor.​​
      *
      * @param AdapterInterface $adapter
      * @param FactoryInterface $factory

@@ -3,7 +3,7 @@
 namespace Example\Routes;
 
 /**
- * Simple router config.
+ * Simple router config.​​
  */
 class Config implements \ArrayAccess, \IteratorAggregate
 {

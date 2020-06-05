@@ -3,12 +3,12 @@
 namespace Example\Adapter;
 
 /**
- * Adapter for csv-files.
+ * Adapter for csv-files.​​
  */
 class CsvAdapter extends AbstractAdapter
 {
     /**
-     * Property names (from first string).
+     * Property names (from first string).​​
      *
      * @var array
      */
@@ -51,7 +51,7 @@ class CsvAdapter extends AbstractAdapter
     }
 
     /**
-     * Makes property names array from first csv-string.
+     * Makes property names array from first csv-string.​​
      *
      * @param \SplFileObject $file
      *

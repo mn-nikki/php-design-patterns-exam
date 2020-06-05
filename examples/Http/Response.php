@@ -1,7 +1,4 @@
 <?php declare(strict_types=1);
-/**
- * 04.06.2020.
- */
 
 namespace Example\Http;
 

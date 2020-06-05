@@ -1,17 +1,14 @@
 <?php declare(strict_types=1);
-/**
- * 03.06.2020.
- */
 
 namespace Example\ObjectFactory;
 
 /**
- * Factory Interface.
+ * Factory Interface.​​
  */
 interface FactoryInterface
 {
     /**
-     * Tries to make object of any class.
+     * Tries to make object of any class.​​
      *
      * @param $data
      * @param string|null $className

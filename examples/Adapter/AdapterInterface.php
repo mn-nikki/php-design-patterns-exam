@@ -3,19 +3,19 @@
 namespace Example\Adapter;
 
 /**
- * Interface for data fetcher.
+ * Interface for data fetcher.​​
  */
 interface AdapterInterface
 {
     /**
-     * Read a file.
+     * Read a file.​​
      *
      * @return mixed|\SplFileObject
      */
     public function connect();
 
     /**
-     * Return whole data.
+     * Return whole data.​​
      *
      * @return iterable|object[]
      */

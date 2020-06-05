@@ -5,7 +5,7 @@ namespace Example\Container;
 use Psr\Container\ContainerInterface;
 
 /**
- * Simple container implementation.
+ * Simple container implementation.​​
  */
 class Container implements ContainerInterface, \ArrayAccess
 {

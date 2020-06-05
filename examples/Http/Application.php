@@ -5,7 +5,7 @@ namespace Example\Http;
 use Example\Routes\Config;
 
 /**
- * Application.
+ * Application.​​
  */
 class Application
 {
@@ -60,22 +60,22 @@ class Application
     }
 
     /**
-     * Application constructor.
-     * Prevent from creating multiple instances.
+     * Application constructor.​​
+     * Prevent from creating multiple instances.​​
      */
     private function __construct()
     {
     }
 
     /**
-     * Forbidden.
+     * Forbidden.​​
      */
     private function __clone()
     {
     }
 
     /**
-     * Forbidden.
+     * Forbidden.​​
      */
     private function __wakeup()
     {

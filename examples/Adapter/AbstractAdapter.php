@@ -3,19 +3,19 @@
 namespace Example\Adapter;
 
 /**
- * Abstract Adapter.
+ * Abstract Adapter.​​
  */
 abstract class AbstractAdapter implements AdapterInterface
 {
     /**
-     * Array with properties which will be converted to dates.
+     * Array with properties which will be converted to dates.​​
      *
      * @var array|string[]
      */
     protected static array $dateFields = ['date', 'birthday', 'issueDate'];
 
     /**
-     * Source file name.
+     * Source file name.​​
      *
      * @var string
      */
@@ -42,7 +42,7 @@ abstract class AbstractAdapter implements AdapterInterface
     }
 
     /**
-     * Result values converter.
+     * Result values converter.​​
      *
      * @param array $data
      *

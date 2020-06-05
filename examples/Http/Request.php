@@ -3,7 +3,7 @@
 namespace Example\Http;
 
 /**
- * Http Request object representation.
+ * Http Request object representation.​​
  */
 class Request
 {
@@ -16,7 +16,7 @@ class Request
     private ?string $content;
 
     /**
-     * Request constructor.
+     * Request constructor.​​
      *
      * @param array $query
      * @param array $request
@@ -52,7 +52,7 @@ class Request
     }
 
     /**
-     * Factory method.
+     * Factory method.​​
      *
      * @return static
      */
@@ -82,7 +82,7 @@ class Request
     }
 
     /**
-     * Path without query and fragments.
+     * Path without query and fragments.​​
      *
      * @return string
      */
@@ -104,7 +104,7 @@ class Request
     }
 
     /**
-     * Path and query.
+     * Path and query.​​
      *
      * @return string|null
      */

@@ -5,7 +5,7 @@ namespace Example\Repository;
 use Example\Adapter\AdapterInterface;
 
 /**
- * Abstract Repository.
+ * Abstract Repository.​​
  */
 abstract class AbstractRepository
 {
@@ -22,7 +22,7 @@ abstract class AbstractRepository
     }
 
     /**
-     * Lookup object by ID.
+     * Lookup object by ID.​​
      *
      * @param int $id
      *
@@ -40,7 +40,7 @@ abstract class AbstractRepository
     }
 
     /**
-     * Get some number of data with offset.
+     * Get some number of data with offset.​​
      *
      * @param int|null $number
      * @param int      $offset

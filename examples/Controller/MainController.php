@@ -8,7 +8,7 @@ use Example\Repository\VehicleRepository;
 use Psr\Container\ContainerInterface;
 
 /**
- * Main Controller.
+ * Main Controller.​​
  */
 class MainController extends AbstractController
 {

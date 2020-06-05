@@ -3,7 +3,7 @@
 namespace Example\Adapter;
 
 /**
- * Adapter for JSON-files.
+ * Adapter for JSON-files.​​
  */
 class JsonAdapter extends AbstractAdapter
 {
@@ -18,7 +18,7 @@ class JsonAdapter extends AbstractAdapter
     }
 
     /**
-     * Decodes and converts data.
+     * Decodes and converts data.​​
      *
      * @param string $data
      *

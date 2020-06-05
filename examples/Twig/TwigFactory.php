@@ -8,7 +8,7 @@ use Twig\Loader\FilesystemLoader;
 use Twig\Loader\LoaderInterface;
 
 /**
- * Factory for Twig environment.
+ * Factory for Twig environment.​​
  */
 class TwigFactory
 {

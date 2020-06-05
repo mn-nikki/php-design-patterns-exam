@@ -3,7 +3,7 @@
 namespace Example\Entity;
 
 /**
- * Vehicle object representation.
+ * Vehicle object representation.​​
  */
 class Vehicle
 {

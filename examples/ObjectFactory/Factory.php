@@ -3,7 +3,7 @@
 namespace Example\ObjectFactory;
 
 /**
- * Factory for object of any class creation.
+ * Factory for object of any class creation.​​
  */
 class Factory implements FactoryInterface
 {
@@ -24,7 +24,7 @@ class Factory implements FactoryInterface
     }
 
     /**
-     * Check if object has valid structure: only `{"key" => "value"}` allowed.
+     * Check if object has valid structure: only `{"key" => "value"}` allowed.​​
      *
      * @param $data
      *
@@ -43,7 +43,7 @@ class Factory implements FactoryInterface
     }
 
     /**
-     * Makes an instance of given class.
+     * Makes an instance of given class.​​
      *
      * @param array  $data
      * @param string $className
@@ -67,7 +67,7 @@ class Factory implements FactoryInterface
     }
 
     /**
-     * Get value of property from array.
+     * Get value of property from array.​​
      *
      * @param \ReflectionProperty $property
      * @param array               $data
