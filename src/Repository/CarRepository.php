@@ -37,13 +37,14 @@ class CarRepository extends AbstractRepository
     /**
      * @param int $id
      * @return object|null
+     * @throws \ReflectionException
      */
     public function getById(int $id): ?object
     {
         $data = parent::getById($id);
 
         if($data !== null && $this->className !== null) {
-            $data = populate($data, $this->className);
+            $data = $this->factory->build($data, $this->className);
         }
 
         return $data;
@@ -60,20 +61,9 @@ class CarRepository extends AbstractRepository
         $data = parent::getSlice($number, $offset);
 
         if($this->className !== null) {
-            $data = \array_map(fn (object $el) => populate($el, $this->className), (array) parent::getSlice($number, $offset));
+            $data = \array_map(fn (object $el) => $this->factory->build($el, $this->className), (array) parent::getSlice($number, $offset));
         }
 
         return $data;
-    }
-
-    /**
-     * @param $data
-     * @param $className
-     * @return object
-     * @throws \ReflectionException
-     */
-    private function populate($data, $className): object
-    {
-        return $this->factory->build($data, $className);
     }
 }
