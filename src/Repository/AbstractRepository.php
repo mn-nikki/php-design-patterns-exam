@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 
 namespace App\Repository;
@@ -23,7 +23,7 @@ abstract class AbstractRepository
     public function __construct(AdapterInterface $adapter)
     {
         $this->adapter = $adapter;
-        $this->data = (array) $adapter->getData();
+        $this->data = $adapter->getData();
     }
 
     /**
@@ -32,7 +32,7 @@ abstract class AbstractRepository
      */
     public function getById(int $id): ?object
     {
-        $res = array_filter($this->data, function($el) use ($id) { return (int) $el->id === $id; });
+        $res = array_filter((array) $this->data, function($el) use ($id) { return (int) $el->id === $id; });
 
         if(empty($res)) return null;
 
@@ -47,14 +47,15 @@ abstract class AbstractRepository
      */
     public function getSlice(int $number = null, int $offset = 0): iterable
     {
-        if(\count($this->data) <= $offset) {
+        $count = \count((array) $this->data);
+        if($count <= $offset) {
             throw new \Exception("The offset cannot be greater than the number of elements in the object.");
         }
 
         if($number === null) {
-            $number = \count($this->data);
+            $number = $count;
         }
 
-        return array_slice($this->data, $offset, $number);
+        return array_slice((array) $this->data, $offset, $number);
     }
 }
