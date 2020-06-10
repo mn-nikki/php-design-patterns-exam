@@ -1,10 +1,9 @@
-<?php
+<?php declare(strict_types=1);
 
 
 namespace App\Http;
 
-use Symfony\Component\HttpFoundation\Request;
-use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\{Request, Response};
 
 class Application extends AbstractSingleton
 {

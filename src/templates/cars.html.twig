@@ -1,0 +1,53 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+  <div class="container">
+    <h1>Vehicles list</h1>
+    <div class="row">
+      <div class="col-md-6">CSV</div>
+      <div class="col-md-6">JSON</div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <table class="table table-bordered table-striped">
+          <thead>
+          <tr>
+            <td>Build</td>
+            <td>Build Date</td>
+            <td>Mileage</td>
+          </tr>
+          </thead>
+          <tbody>
+          {% for csvItem in csv %}
+            <tr id="{{ csvItem.id }}">
+              <td><a href="/vehicle?id={{ csvItem.id }}&type=csv">{{ csvItem.build }}</a></td>
+              <td>{{ csvItem.issueDate | date }}</td>
+              <td>{{ csvItem.mileage | number_format }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-6">
+        <table class="table table-bordered table-striped">
+          <thead>
+          <tr>
+            <td>Build</td>
+            <td>Build Date</td>
+            <td>Mileage</td>
+          </tr>
+          </thead>
+          <tbody>
+          {% for jsonItem in json %}
+            <tr id="{{ jsonItem.id }}">
+              <td><a href="/vehicle?id={{ jsonItem.id }}&type=json">{{ jsonItem.build }}</a></td>
+              <td>{{ jsonItem.issueDate | date }}</td>
+              <td>{{ jsonItem.mileage | number_format }}</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+{% endblock %}
